@@ -1,0 +1,26 @@
+# Ambiente virtuale
+venv/
+env/
+ENV/
+
+# File di configurazione con informazioni sensibili
+.env
+.env.local
+.env.*.local
+
+# File Python compilati
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Cache di IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# File di log
+*.log
+
+# File di sistema macOS
+.DS_Store
